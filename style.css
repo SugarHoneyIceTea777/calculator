@@ -1,0 +1,88 @@
+/*Calculator CSS*/
+
+h1 {
+  text-align:center;
+}
+
+#calculator {
+  display:flex;
+  flex-direction:column;
+  width: 280px;
+  height: 350px;
+  margin:auto;
+  background-color: #2A4849;
+  border:solid 5px #000;
+}
+
+#screen {
+  background-color: #426B69;
+  height: 50px;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: -reverse;
+}
+
+#operators {
+  display:flex;
+  flex-wrap: wrap;
+  flex-flow: row-reverse;
+
+
+}
+
+#clear,
+#equal {
+  background-color: #5C946E;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display:flex;
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px #888888;
+
+}
+
+.number,
+.operator {
+  background-color: #B5CA8D;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight:bold;
+  box-shadow: 3px 3px #888888;
+}
+
+/*takes the shadow away when you click on a button */
+.button:active {
+  box-shadow: 0px 0px;
+}
+
+.number:active {
+  box-shadow: 0px 0px:
+}
+
+.operator {
+  background-color: #8BB174;
+
+}
+
+#buttons {
+  dispaly: flex;
+    cursor: pointer;
+}
