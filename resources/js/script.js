@@ -134,7 +134,7 @@ function more(){
                      if(num1 != null) {
                      more();
                      $screen.append("÷");
-                     op = "÷";
+                     op = "/";
                    };
                    return;
                    })
